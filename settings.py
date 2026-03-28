@@ -1,8 +1,6 @@
-from pathlib import Path
 TIME_ZONE = 'America/Detroit'
 LANGUAGE_CODE = 'en-us'
 STATIC_URL = 'static/'
-BASE_DIR = Path(__file__).resolve().parent.parent
 STATIC_ROOT = BASE_DIR / 'static'
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.pythonanywhere.com']
 
